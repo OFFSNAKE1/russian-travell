@@ -1,0 +1,34 @@
+.places {
+  max-width: 984px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 92px;
+}
+
+@media screen and (max-width: 1280px) {
+  .places {
+    width: 92.5%;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+ .places {
+   width: 90.626%;
+ }
+}
+
+@media screen and (max-width: 770px) {
+ .places {
+   width: 93.75%;
+   padding: 0 0 90px;
+ }
+}
+
+@media screen and (max-width: 425px) {
+ .places {
+   width: 100%;
+   padding: 0 0 66px;
+ }
+}
